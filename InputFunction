@@ -1,0 +1,31 @@
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.Write("What is your name?:");
+      string name = Console.ReadLine();
+    
+      
+      Console.Write("How old are you?:");
+      int age = Convert.ToInt32(Console.ReadLine());
+     
+      
+      Console.Write("How much money do you have?:");
+      double money = double.Parse (Console.ReadLine());
+  
+      
+      Console.Write("What letter grade did you get in school? (e.g. A):");
+      char grade = Convert.ToChar(Console.ReadLine());
+ 
+      
+      Console.Write("Are you a student? true/false:");
+      bool bol = bool.Parse(Console.ReadLine());
+   
+      Console.WriteLine("Your name is "+name+", I am "+age+" years old, I have $"+money+" in my pocket, I got a "+grade+" in school, and it is "+bol+" that I am currently a student." );
+    }
+  }
+}
