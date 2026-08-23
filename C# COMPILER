@@ -1,0 +1,25 @@
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+		string name = "Vanguard";
+      Console.WriteLine(name);
+
+		int num = 21;
+	  Console.WriteLine(num);
+
+	  	double tutu = 2.1;
+	  Console.WriteLine(tutu);
+
+	  	char Tipsy = 'D';
+	  Console.WriteLine(Tipsy);    
+
+	   bool ball = true;
+	  Console.WriteLine(ball);
+    }
+  }
+}
