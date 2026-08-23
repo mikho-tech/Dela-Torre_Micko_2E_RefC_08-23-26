@@ -1,0 +1,18 @@
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+		string name = "Micko";
+		int num = 19;
+	  	double tutu = 19.99;
+		char Tipsy = 'D';
+		bool ball = false;
+
+	  Console.WriteLine ("Hi my name is "+name+" ,I am "+num+" years old. I bought a apple for a price of "+tutu+" per kilo. The name of the store is "+Tipsy+" store, and it is "+ball+" for selling a high value fruits.");
+    }
+  }
+}
